@@ -1,0 +1,23 @@
+name: Rune
+version: 1.0.0
+description: An extensible task runner for build systems
+author: Safin Singh
+goals:
+    one: echo hi
+    two:
+        - echo hi
+        - echo hi2
+    three:
+        - message: execute command
+          cmd: echo hello
+        - message: execute command
+          cmd: echo hello
+    four:
+        - message: execute command
+          cmd:
+              - echo hello
+              - echo hello2
+        - message: execute command
+          cmd:
+              - echo hello
+              - echo hello2
