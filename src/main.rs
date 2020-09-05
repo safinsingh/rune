@@ -9,7 +9,7 @@ use std::process::Command;
 use std::process::Stdio;
 
 #[derive(Clap)]
-#[clap(version = "1.0", author = "Safin S. <safinsingh.dev@gmail.com>")]
+#[clap(version = "1.0.0", author = "Safin S. <safinsingh.dev@gmail.com>")]
 struct Opts {
     #[clap(short, long)]
     /// Run in verbose mode
