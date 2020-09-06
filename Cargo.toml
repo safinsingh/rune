@@ -7,7 +7,7 @@ license = "MIT"
 description = "An extensible task execution and generation tool"
 repository = "https://github.com/safinsingh/rune"
 readme = "README.md"
-keywords = ["command-line-utilities", "execution", "task-runner"]
+keywords = ["cli-utilities", "execution", "task-runner"]
 
 [[bin]]
 bench = false
