@@ -1,5 +1,5 @@
 [package]
-name = "rune"
+name = "rune-rs"
 version = "1.0.0"
 authors = ["Safin Singh <safinsingh.dev@gmail.com>"]
 edition = "2018"
@@ -8,6 +8,11 @@ description = "An extensible task execution and generation tool"
 repository = "https://github.com/safinsingh/rune"
 readme = "README.md"
 keywords = ["command-line-utilities", "execution", "task-runner"]
+
+[[bin]]
+bench = false
+path = "src/main.rs"
+name = "rune"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
