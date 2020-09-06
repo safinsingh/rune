@@ -22,6 +22,12 @@ From AUR:
 
 > Not complete yet
 
+From `cargo`:
+
+```sh
+cargo install rune-rs
+```
+
 From source:
 
 ```sh
